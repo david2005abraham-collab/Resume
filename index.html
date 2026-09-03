@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Abraham | Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of David Abraham - Aspiring Software Developer with practical skills in SQL, MySQL, programming, databases, Excel, and Power BI. Motivated fresher eager to build real-world software solutions.">
+  <meta name="author" content="David Abraham">
+  <meta name="keywords" content="David Abraham, Software Developer, Junior Developer, SQL, MySQL, Database, Portfolio, Chennai">
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="David Abraham | Aspiring Software Developer">
+  <meta property="og:description" content="Motivated fresher interested in software development, programming, databases, and building practical projects.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Outfit & Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       STICKY NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="David Abraham Home">
+        <span class="nav-logo-badge">&lt;DA /&gt;</span>
+        <span>David Abraham</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Navbar Action: Download Resume Button -->
+      <div class="nav-actions">
+        <a href="David_Abraham_Resume.pdf" download="David_Abraham_Resume.pdf" class="btn btn-resume btn-sm" id="nav-resume-btn" title="Download David Abraham's Resume">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg class="nav-toggle-icon" id="toggle-icon-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-label="Mobile Navigation">
+    <a href="#home" class="mobile-nav-link">Home</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#journey" class="mobile-nav-link">Journey</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#education" class="mobile-nav-link">Education</a>
+    <a href="#certifications" class="mobile-nav-link">Certifications</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+    <a href="David_Abraham_Resume.pdf" download="David_Abraham_Resume.pdf" class="btn btn-resume mobile-resume-btn">
+      <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <span>Download Resume (PDF)</span>
+    </a>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         HERO SECTION
+         ====================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Left Column: Text & CTAs -->
+        <div class="hero-content reveal">
+          <div class="hero-status">
+            <span class="pulse-dot"></span>
+            <span>Available for Entry-Level & Junior Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">David Abraham</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="gradient-text-alt">Aspiring Software Developer</span>
+            <span class="hero-role-badge">Fresher</span>
+          </div>
+
+          <p class="hero-description">
+            I am a motivated and detail-oriented aspiring Software Developer with a strong interest in programming, databases, software development, and problem solving. I enjoy learning new technologies and building practical projects that improve my technical skills.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>View My Projects</span>
+            </a>
+            
+            <a href="David_Abraham_Resume.pdf" download="David_Abraham_Resume.pdf" class="btn btn-resume" id="hero-download-resume">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary" id="hero-contact-me">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Technology Badges -->
+          <div class="hero-badges-wrapper">
+            <div class="hero-badges-label">Core Technologies & Focus Areas</div>
+            <div class="hero-badges-list" id="hero-badges-list">
+              <span class="tech-badge"><span class="tech-badge-dot"></span>SQL</span>
+              <span class="tech-badge"><span class="tech-badge-dot"></span>MySQL</span>
+              <span class="tech-badge"><span class="tech-badge-dot"></span>Excel</span>
+              <span class="tech-badge"><span class="tech-badge-dot"></span>Power BI</span>
+              <span class="tech-badge"><span class="tech-badge-dot"></span>Programming</span>
+              <span class="tech-badge"><span class="tech-badge-dot"></span>Database Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Visual Avatar & Floating Badges -->
+        <div class="hero-visual reveal stagger-2">
+          <div class="hero-visual-glow"></div>
+          
+          <!-- Top Floating Badge -->
+          <div class="floating-badge badge-top-left">
+            <svg class="floating-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <span>SQL & Databases</span>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-image-frame">
+              <img src="assets/david_profile.png" alt="David Abraham - Aspiring Software Developer" class="hero-profile-img" onerror="this.src='assets/david_avatar.png'">
+            </div>
+            <div class="hero-card-footer">
+              <div>
+                <div class="hero-card-title">David Abraham</div>
+                <div class="hero-card-sub">Chennai, Tamil Nadu, India</div>
+              </div>
+              <div class="hero-card-chip">
+                <span>Fresher</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Floating Badge -->
+          <div class="floating-badge badge-bottom-right">
+            <svg class="floating-badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span>Problem Solver</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ABOUT ME SECTION
+         ====================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Profile & Motivation</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            A motivated individual dedicated to mastering software development, database querying, and creating impactful technical solutions.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Card -->
+          <div class="glass-card about-card-main reveal">
+            <div>
+              <p class="about-text-lead">
+                I am a motivated, responsible, and quick learner with a strong passion for software development, programming, and databases.
+              </p>
+              <p class="about-text-p">
+                My technical journey began with hands-on practice in SQL, MySQL, data modeling, Excel, and Power BI. I have developed a solid foundation in data cleaning, querying relational databases, and interpreting patterns to solve practical problems.
+              </p>
+              <p class="about-text-p">
+                Driven by a problem-solving mindset, I am actively expanding my skills in software development concepts and programming fundamentals. I enjoy writing clean queries, designing structured schemas, and learning modern development practices to build reliable real-world applications.
+              </p>
+              <p class="about-text-p">
+                As a team player with keen attention to detail, I continuously work to improve both my technical capabilities and communication skills. I am seeking an entry-level Software Developer role where I can learn, contribute, and grow professionally.
+              </p>
+            </div>
+
+            <div class="about-meta-grid">
+              <div class="about-meta-item">
+                <span class="about-meta-label">Location</span>
+                <span class="about-meta-value">Chennai, Tamil Nadu, India</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Role Focus</span>
+                <span class="about-meta-value">Entry-Level Software Developer</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Languages</span>
+                <span class="about-meta-value">English, Tamil</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Work Preference</span>
+                <span class="about-meta-value">Full-Time / Fresher / Junior</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Pillars -->
+          <div class="about-highlights-grid">
+            <div class="glass-card highlight-box reveal stagger-1">
+              <div class="highlight-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              </div>
+              <h3 class="highlight-title">Databases & SQL</h3>
+              <p class="highlight-desc">Hands-on experience in writing relational database queries, table joins, aggregations, and data validation using SQL & MySQL.</p>
+            </div>
+
+            <div class="glass-card highlight-box reveal stagger-2">
+              <div class="highlight-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <h3 class="highlight-title">Problem-Solving Mindset</h3>
+              <p class="highlight-desc">Approaching coding and logical challenges systematically by breaking down requirements into structured, testable components.</p>
+            </div>
+
+            <div class="glass-card highlight-box reveal stagger-3">
+              <div class="highlight-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+              </div>
+              <h3 class="highlight-title">Quick Learner</h3>
+              <p class="highlight-desc">Rapidly adapting to new developer tools, frameworks, and programming workflows with discipline and enthusiasm.</p>
+            </div>
+
+            <div class="glass-card highlight-box reveal stagger-4">
+              <div class="highlight-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="highlight-title">Team Player & Communicator</h3>
+              <p class="highlight-desc">Effective communicator focused on receptive listening, attention to detail, and collaborative problem-solving.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DEVELOPER JOURNEY SECTION
+         ====================================================================== -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Continuous Growth</span>
+          <h2 class="section-title">Developer <span class="gradient-text">Journey</span></h2>
+          <p class="section-subtitle">
+            A structured progression from foundations to hands-on project building and career readiness as a software developer.
+          </p>
+        </div>
+
+        <div class="journey-roadmap reveal" id="journey-roadmap">
+          <div class="journey-track">
+            <!-- Step 1 -->
+            <div class="journey-step-card">
+              <div class="journey-num">1</div>
+              <div class="journey-title">Learning</div>
+              <div class="journey-sub">Foundations</div>
+              <div class="journey-desc">Building strong fundamentals in programming logic, database concepts, and data structures.</div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="journey-step-card">
+              <div class="journey-num">2</div>
+              <div class="journey-title">Building Projects</div>
+              <div class="journey-sub">Hands-on Practice</div>
+              <div class="journey-desc">Writing SQL queries, creating relational tables, modeling data in Excel, and visualizing in Power BI.</div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="journey-step-card">
+              <div class="journey-num">3</div>
+              <div class="journey-title">Improving Programming</div>
+              <div class="journey-sub">Logic & Syntax</div>
+              <div class="journey-desc">Strengthening algorithmic problem solving, clean code habits, and code versioning on GitHub.</div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="journey-step-card">
+              <div class="journey-num">4</div>
+              <div class="journey-title">Software Development</div>
+              <div class="journey-sub">Architecture</div>
+              <div class="journey-desc">Understanding software architecture, API concepts, database normalization, and debugging.</div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="journey-step-card">
+              <div class="journey-num">5</div>
+              <div class="journey-title">Real-World Apps</div>
+              <div class="journey-sub">Practical Solutions</div>
+              <div class="journey-desc">Developing end-to-end practical software and data-driven solutions with user-centric design.</div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="journey-step-card current">
+              <div class="journey-num">6</div>
+              <div class="journey-title">Entry-Level Dev</div>
+              <div class="journey-sub">Ready to Contribute</div>
+              <div class="journey-desc">Prepared to bring enthusiasm, strong fundamentals, and rapid learning to a professional team.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TECHNICAL SKILLS SECTION
+         ====================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical <span class="gradient-text">& Soft Skills</span></h2>
+          <p class="section-subtitle">
+            Curated capabilities spanning programming principles, relational databases, data analytics tools, and professional attributes.
+          </p>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- 1. Programming / Development -->
+          <div class="glass-card skill-category-card reveal">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Programming / Development</h3>
+            </div>
+            <div class="skill-cat-items">
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Programming Fundamentals</span>
+                  <span class="hero-role-badge">Core</span>
+                </div>
+                <div class="skill-item-desc">Control structures, variables, data types, functions, and modular code logic.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Problem Solving</span>
+                  <span class="hero-role-badge">Mindset</span>
+                </div>
+                <div class="skill-item-desc">Breaking down requirements into logical algorithms and step-by-step solutions.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Software Development Concepts</span>
+                  <span class="hero-role-badge">Concepts</span>
+                </div>
+                <div class="skill-item-desc">Understanding software life cycles, testing mindset, clean code, and Git basics.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Database -->
+          <div class="glass-card skill-category-card reveal stagger-1">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Database</h3>
+            </div>
+            <div class="skill-cat-items">
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>SQL</span>
+                  <span class="hero-role-badge">Querying</span>
+                </div>
+                <div class="skill-item-desc">SELECT queries, WHERE filtering, INNER/LEFT JOINs, GROUP BY, aggregations, subqueries.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>MySQL</span>
+                  <span class="hero-role-badge">RDBMS</span>
+                </div>
+                <div class="skill-item-desc">Table schema creation, constraints, foreign keys, data manipulation (CRUD), and indexing.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Database Management</span>
+                  <span class="hero-role-badge">Design</span>
+                </div>
+                <div class="skill-item-desc">Relational data modeling, entity relationships, normalization, and data integrity.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Tools / Technologies -->
+          <div class="glass-card skill-category-card reveal stagger-2">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Tools / Technologies</h3>
+            </div>
+            <div class="skill-cat-items">
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Microsoft Excel</span>
+                  <span class="hero-role-badge">Formulas</span>
+                </div>
+                <div class="skill-item-desc">Pivot Tables, VLOOKUP/XLOOKUP, conditional formatting, and analytical sheets.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Microsoft Power BI</span>
+                  <span class="hero-role-badge">BI & DAX</span>
+                </div>
+                <div class="skill-item-desc">Interactive dashboard creation, KPI reports, and basic DAX measures.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Data Visualization & Reporting</span>
+                  <span class="hero-role-badge">Analytics</span>
+                </div>
+                <div class="skill-item-desc">Transforming raw datasets into executive visual metrics and actionable reports.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Data Cleaning</span>
+                  <span class="hero-role-badge">Quality</span>
+                </div>
+                <div class="skill-item-desc">Identifying missing data, deduping rows, standardizing formats, and data hygiene.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Soft Skills -->
+          <div class="glass-card skill-category-card reveal stagger-3">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Soft Skills</h3>
+            </div>
+            <div class="skill-cat-items">
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Analytical Thinking & Problem Solving</span>
+                  <span class="hero-role-badge">Logic</span>
+                </div>
+                <div class="skill-item-desc">Approaching unexpected hurdles with patience, systematic inquiry, and calm reasoning.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Teamwork & Collaboration</span>
+                  <span class="hero-role-badge">Culture</span>
+                </div>
+                <div class="skill-item-desc">Active listener, respectful collaborator, and enthusiastic pair contributor.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Attention to Detail & Time Management</span>
+                  <span class="hero-role-badge">Execution</span>
+                </div>
+                <div class="skill-item-desc">Thoroughness in query verification, clean documentation, and meeting deadlines.</div>
+              </div>
+              <div class="skill-item-pill">
+                <div class="skill-item-name">
+                  <span>Adaptability & Quick Learner</span>
+                  <span class="hero-role-badge">Growth</span>
+                </div>
+                <div class="skill-item-desc">Eagerness to embrace feedback, pick up new tech stacks, and continuously evolve.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PROJECTS SECTION
+         ====================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Hands-on Work</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            A showcase of practical database queries, analytical dashboards, and software solutions built with hands-on rigor.
+          </p>
+        </div>
+
+        <!-- FEATURED PROJECT CARD -->
+        <div class="featured-project-container reveal" id="featured-project-container">
+          <div class="glass-card featured-card">
+            <div class="featured-badge-row">
+              <span class="featured-flag">★ Featured Showcase</span>
+              <span class="editable-indicator">Editable Project Card</span>
+            </div>
+
+            <h3 class="featured-title" id="featured-title">Hotel Bookings Analysis & Database System</h3>
+
+            <div class="featured-body-grid">
+              <div>
+                <div class="featured-section-block">
+                  <div class="block-label">Problem Statement</div>
+                  <p class="block-text" id="featured-problem">
+                    Hospitality organizations frequently deal with booking cancellations, revenue volatility, and guest scheduling challenges. The objective was to clean, query, and analyze raw booking records to identify cancellation factors, seasonal booking trends, and guest stay behaviors.
+                  </p>
+                </div>
+
+                <div class="featured-section-block">
+                  <div class="block-label">Key Features & Methodology</div>
+                  <div class="featured-features-list" id="featured-features">
+                    <div class="featured-feature-item">
+                      <span class="feature-check">✓</span>
+                      <span>Rigorous data cleaning and validation across complex booking records</span>
+                    </div>
+                    <div class="featured-feature-item">
+                      <span class="feature-check">✓</span>
+                      <span>Advanced multi-table SQL queries utilizing aggregation, GROUP BY, and filtering</span>
+                    </div>
+                    <div class="featured-feature-item">
+                      <span class="feature-check">✓</span>
+                      <span>Identification of cancellation triggers based on lead times and customer segments</span>
+                    </div>
+                    <div class="featured-feature-item">
+                      <span class="feature-check">✓</span>
+                      <span>Interactive KPI cards and reporting dashboards for clear visual presentation</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="featured-section-block">
+                  <div class="block-label">Technologies Used</div>
+                  <div class="featured-tech-row" id="featured-techs">
+                    <span class="tech-badge"><span class="tech-badge-dot"></span>SQL</span>
+                    <span class="tech-badge"><span class="tech-badge-dot"></span>MySQL</span>
+                    <span class="tech-badge"><span class="tech-badge-dot"></span>MS Excel</span>
+                    <span class="tech-badge"><span class="tech-badge-dot"></span>Power BI</span>
+                    <span class="tech-badge"><span class="tech-badge-dot"></span>Data Cleaning</span>
+                  </div>
+                </div>
+
+                <div class="featured-section-block">
+                  <div class="block-label">What I Learned</div>
+                  <p class="block-text" id="featured-learned">
+                    Enhanced my ability to translate raw data into structured relational tables, craft efficient analytical queries, and present actionable insights through clear visual reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="featured-actions">
+              <a href="https://github.com/david2005abraham-collab" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="featured-github-btn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>GitHub Repository</span>
+              </a>
+
+              <a href="https://github.com/david2005abraham-collab" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="featured-demo-btn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <span>View Project Details</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY FILTER BUTTONS -->
+        <div class="project-filters" id="project-filters">
+          <button class="filter-btn active" data-category="all">All Projects</button>
+          <button class="filter-btn" data-category="sql">1. SQL Projects</button>
+          <button class="filter-btn" data-category="mysql">2. MySQL Projects</button>
+          <button class="filter-btn" data-category="excel">3. Excel Projects</button>
+          <button class="filter-btn" data-category="powerbi">4. Power BI Projects</button>
+          <button class="filter-btn" data-category="software">5. Other Software / Development Projects</button>
+        </div>
+
+        <!-- DYNAMIC PROJECTS GRID (Populated by js/main.js from js/projects-data.js) -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         GITHUB SECTION
+         ====================================================================== -->
+    <section class="section" id="github-section">
+      <div class="container">
+        <div class="glass-card github-banner-card reveal">
+          <div class="github-banner-icon">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <h2 class="github-banner-title">Explore My <span class="gradient-text">Projects</span></h2>
+          <p class="github-banner-desc">
+            Check out my GitHub portfolio to explore my projects, coding practice, database projects, dashboards, and future software development work.
+          </p>
+          <a href="https://github.com/david2005abraham-collab" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="github-visit-btn">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>Visit GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         EDUCATION SECTION
+         ====================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+          <p class="section-subtitle">
+            Formal educational background and specialized technical training.
+          </p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Item 1: Bachelor of Theology -->
+          <div class="glass-card edu-card reveal">
+            <div class="edu-card-top">
+              <div>
+                <h3 class="edu-degree">Bachelor of Theology (B.Th)</h3>
+                <div class="edu-institution">Senate of Serampore University</div>
+                <div class="edu-location">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Madhuri Dhanaji, Lamb, Pasumalai, Madurai, Tamil Nadu 625004</span>
+                </div>
+              </div>
+              <span class="edu-period-badge">Degree Completed</span>
+            </div>
+            <div class="edu-highlights-list">
+              <div class="edu-highlight-item">
+                <span class="feature-check">✓</span>
+                <span>Fostered rigorous analytical reasoning, deep discipline, and articulate verbal/written communication.</span>
+              </div>
+              <div class="edu-highlight-item">
+                <span class="feature-check">✓</span>
+                <span>Cultivated collaborative leadership, strong personal ethics, and active listening capabilities.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Data Science & Analytics with Gen AI -->
+          <div class="glass-card edu-card reveal stagger-1">
+            <div class="edu-card-top">
+              <div>
+                <h3 class="edu-degree">Data Science & Analytics with Gen AI</h3>
+                <div class="edu-institution">Professional Training Program</div>
+                <div class="edu-location">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Old No: AC 6 & New No: 129, LKS Plaza, 2nd Floor, Anna Nagar, Tamil Nadu 600040</span>
+                </div>
+              </div>
+              <span class="edu-period-badge">Specialized Training</span>
+            </div>
+            <div class="edu-highlights-list">
+              <div class="edu-highlight-item">
+                <span class="feature-check">✓</span>
+                <span>Practical, project-centric instruction in SQL query crafting, MySQL databases, Excel, and Power BI dashboards.</span>
+              </div>
+              <div class="edu-highlight-item">
+                <span class="feature-check">✓</span>
+                <span>Direct exposure to exploratory data analysis, data cleansing workflows, and business intelligence reporting.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CERTIFICATIONS SECTION
+         ====================================================================== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Qualifications</span></h2>
+          <p class="section-subtitle">
+            Verified coursework and qualifications as recorded in resume. (Easily editable)
+          </p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1 -->
+          <div class="glass-card cert-card reveal">
+            <div>
+              <span class="cert-badge-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Verified Course</span>
+              </span>
+              <h3 class="cert-title">Data Analytics Course</h3>
+              <div class="cert-org">Professional Data Analytics Certification</div>
+              <p class="cert-desc">
+                Comprehensive practical training in SQL relational querying, database management with MySQL, advanced Excel formulas/pivot tables, and business reporting with Microsoft Power BI.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="glass-card cert-card reveal stagger-1">
+            <div>
+              <span class="cert-badge-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>University Degree</span>
+              </span>
+              <h3 class="cert-title">Bachelor of Theology</h3>
+              <div class="cert-org">Senate of Serampore University</div>
+              <p class="cert-desc">
+                Academic qualification emphasizing critical evaluation, structured analytical thinking, team leadership, cross-functional collaboration, and communication excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION
+         ====================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Together</span></h2>
+          <p class="section-subtitle">
+            I am actively seeking entry-level Software Developer opportunities, junior roles, or technical collaborations. Feel free to connect!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Contact Cards -->
+          <div class="glass-card contact-info-panel reveal">
+            <div>
+              <h3 class="contact-intro-title">Contact Information</h3>
+              <p class="contact-intro-desc">
+                Click the copy icons to copy my email or phone number, or reach out directly through any of my profiles below.
+              </p>
+            </div>
+
+            <div class="contact-details-list">
+              <!-- Email -->
+              <div class="contact-detail-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Email</div>
+                    <a href="mailto:david2005abraham@gmail.com" class="contact-item-value" id="contact-email-link">david2005abraham@gmail.com</a>
+                  </div>
+                </div>
+                <button class="copy-btn" data-copy="david2005abraham@gmail.com" title="Copy Email">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-detail-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Phone</div>
+                    <a href="tel:8667820195" class="contact-item-value" id="contact-phone-link">8667820195</a>
+                  </div>
+                </div>
+                <button class="copy-btn" data-copy="8667820195" title="Copy Phone Number">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                </button>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-detail-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Location</div>
+                    <div class="contact-item-value">Chennai, Tamil Nadu, India</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-detail-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">LinkedIn</div>
+                    <a href="https://www.linkedin.com/in/david-abraham-b88016352" target="_blank" rel="noopener noreferrer" class="contact-item-value" id="contact-linkedin-link">david-abraham-b88016352</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-detail-item">
+                <div class="contact-item-left">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">GitHub</div>
+                    <a href="https://github.com/david2005abraham-collab" target="_blank" rel="noopener noreferrer" class="contact-item-value" id="contact-github-link">david2005abraham-collab</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="glass-card contact-form-panel reveal stagger-1">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="Software Developer Opportunity / Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Hello David, I came across your portfolio and would like to connect regarding an opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="form-submit-btn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <span>Send Message</span>
+              </button>
+
+              <div class="form-status" id="form-status" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Col -->
+        <div>
+          <h3 class="footer-brand-title gradient-text">David Abraham</h3>
+          <div class="footer-brand-role">Aspiring Software Developer</div>
+          <p class="footer-motto">"Learning. Building. Improving."</p>
+
+          <div class="footer-socials">
+            <a href="https://github.com/david2005abraham-collab" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Portfolio">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/david-abraham-b88016352" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:david2005abraham@gmail.com" class="social-icon-btn" aria-label="Direct Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links Col -->
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <div class="footer-nav-list">
+            <a href="#home" class="footer-nav-link">Home</a>
+            <a href="#about" class="footer-nav-link">About Me</a>
+            <a href="#journey" class="footer-nav-link">Developer Journey</a>
+            <a href="#skills" class="footer-nav-link">Skills</a>
+            <a href="#projects" class="footer-nav-link">Projects</a>
+            <a href="#education" class="footer-nav-link">Education</a>
+            <a href="#contact" class="footer-nav-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Resume & Document Col -->
+        <div>
+          <div class="footer-col-title">Resume & Profile</div>
+          <p class="footer-nav-link" style="margin-bottom: 1rem;">
+            Download David Abraham's latest resume in PDF format.
+          </p>
+          <a href="David_Abraham_Resume.pdf" download="David_Abraham_Resume.pdf" class="btn btn-resume btn-sm" id="footer-download-resume">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download Resume (PDF)</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="current-year"></span> David Abraham. All Rights Reserved.</div>
+        <div>Designed for Entry-Level Software Developer Opportunities</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Floating Toast Notification -->
+  <div class="toast-container">
+    <div class="toast" id="toast">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+      <span id="toast-message">Copied to clipboard!</span>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

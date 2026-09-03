@@ -1,0 +1,10 @@
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+.gemini/
