@@ -1,9 +1,9 @@
-# David Abraham | Aspiring Software Developer Portfolio
+# David Abraham | Aspiring Data Analyst Portfolio
 
-A modern, responsive personal portfolio website showcasing hands-on projects in **SQL, MySQL, Relational Databases, Excel, Power BI**, and **Software Development**.
+A modern, luxury Golden & Obsidian Black personal portfolio website showcasing hands-on projects in **SQL, MySQL, Relational Databases, Excel, Power BI**, and **Data Analysis**.
 
 ## 🌐 Live Preview & Highlights
-- **Role**: Aspiring / Entry-Level Software Developer
+- **Role**: Aspiring / Entry-Level Data Analyst
 - **Location**: Chennai, Tamil Nadu, India
 - **GitHub**: [github.com/david2005abraham-collab](https://github.com/david2005abraham-collab)
 - **LinkedIn**: [linkedin.com/in/david-abraham-b88016352](https://www.linkedin.com/in/david-abraham-b88016352)
@@ -12,7 +12,7 @@ A modern, responsive personal portfolio website showcasing hands-on projects in 
 
 ## 🛠️ Tech Stack & Design
 - **Core**: HTML5, CSS3 (Vanilla), JavaScript (ES6 Modules)
-- **Styling**: Modern dark navy theme (`#060913`), glassmorphism, responsive CSS Grid & Flexbox
+- **Styling**: Luxury Golden & Obsidian Black theme (`#040406`), glassmorphism, responsive CSS Grid & Flexbox
 - **Typography**: Google Fonts (*Outfit*, *Inter*, *JetBrains Mono*)
 - **Zero Build Step**: Native browser execution without external build dependencies
 

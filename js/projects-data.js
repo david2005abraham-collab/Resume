@@ -10,17 +10,17 @@
 export const PORTFOLIO_CONFIG = {
   personalInfo: {
     name: "David Abraham",
-    role: "Aspiring Software Developer",
+    role: "Aspiring Data Analyst",
     location: "Chennai, Tamil Nadu, India",
     phone: "8667820195",
     email: "david2005abraham@gmail.com",
     linkedin: "https://www.linkedin.com/in/david-abraham-b88016352",
     github: "https://github.com/david2005abraham-collab",
     resumePath: "David_Abraham_Resume.pdf",
-    shortBio: "I am a motivated and detail-oriented aspiring Software Developer with a strong interest in programming, databases, software development, and problem solving. I enjoy learning new technologies and building practical projects that improve my technical skills.",
+    shortBio: "I am a motivated and detail-oriented aspiring Data Analyst with a strong interest in SQL, MySQL, database management, Excel, Power BI, and problem solving. I enjoy analyzing data, identifying meaningful patterns, and turning information into actionable insights.",
     motto: "Learning. Building. Improving.",
     languages: ["English", "Tamil"],
-    availability: "Available for Entry-Level & Fresher Software Developer Roles",
+    availability: "Available for Entry-Level & Fresher Data Analyst Roles",
   },
 
   heroBadges: [
@@ -265,9 +265,9 @@ export const PORTFOLIO_CONFIG = {
     },
     {
       step: 6,
-      title: "Entry-Level Software Developer",
+      title: "Entry-Level Data Analyst",
       subtitle: "Career Ready",
-      description: "Prepared to contribute as an enthusiastic, responsible junior developer in a collaborative team.",
+      description: "Prepared to contribute as an enthusiastic, responsible junior analyst in a collaborative data team.",
       icon: "award"
     }
   ],
