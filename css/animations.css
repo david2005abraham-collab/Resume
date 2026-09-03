@@ -1,5 +1,5 @@
 /* ==========================================================================
-   DAVID ABRAHAM - PORTFOLIO ANIMATIONS
+   DAVID ABRAHAM - PORTFOLIO ANIMATIONS (GOLDEN BLACK EDITION)
    Smooth micro-animations, keyframes, float effects, and scroll reveals
    ========================================================================== */
 
@@ -7,15 +7,15 @@
 @keyframes pulse {
   0% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
   }
   70% {
     transform: scale(1.1);
-    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    box-shadow: 0 0 0 9px rgba(245, 158, 11, 0);
   }
   100% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
   }
 }
 
@@ -51,10 +51,10 @@
 
 @keyframes glowPulse {
   0%, 100% {
-    opacity: 0.4;
+    opacity: 0.35;
   }
   50% {
-    opacity: 0.8;
+    opacity: 0.75;
   }
 }
 
@@ -79,7 +79,7 @@
 .stagger-5 { transition-delay: 0.5s; }
 .stagger-6 { transition-delay: 0.6s; }
 
-/* Subtle card gradient highlight effect on hover */
+/* Subtle card top edge gold highlight effect */
 .glass-card::before {
   content: '';
   position: absolute;
@@ -87,16 +87,16 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(251, 191, 36, 0.35), transparent);
   pointer-events: none;
 }
 
-/* Gradient shimmer for featured cards */
+/* Golden shimmer */
 .shimmer-bg {
   background: linear-gradient(90deg, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.05) 50%, 
-    rgba(255, 255, 255, 0) 100%);
+    rgba(245, 158, 11, 0) 0%, 
+    rgba(251, 191, 36, 0.08) 50%, 
+    rgba(245, 158, 11, 0) 100%);
   background-size: 200% 100%;
   animation: shimmer 4s infinite linear;
 }
